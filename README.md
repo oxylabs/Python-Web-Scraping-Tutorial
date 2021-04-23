@@ -284,9 +284,3 @@ You can find this complete code in the file `wiki_toc.py` file.
 ## Other Tools
 
 Some websites do not have data in the HTML but are loaded from other files using JavaScript. In such cases, you would need a solution that uses a browser. The perfect example would be to use Selenium. We have a [detailed guide on Selenium here](https://en.wikipedia.org/wiki/Web_scraping).
-
-## Conclusion
-
-Building web scrapers in Python and extracting data is easy. 
-
-If you want to find out more about how proxies or advanced data acquisition tools work, or about specific web scraping use cases, such as [web scraping job postings](https://oxylabs.io/blog/web-scraping-job-postings) or building a [yellow page scraper](https://oxylabs.io/blog/building-your-own-yellow-pages-scraper), check out our blog. We have enough articles for everyone: a more detailed guide on how to [avoid blocks when scraping](https://oxylabs.io/blog/how-to-crawl-a-website-without-getting-blocked), [is web scraping legal](https://oxylabs.io/blog/is-web-scraping-legal), an in-depth walkthrough on [what is a proxy](https://oxylabs.io/blog/what-is-proxy) and many more!
