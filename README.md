@@ -34,7 +34,7 @@ There will be some cases when you do need to open the browser. Python makes that
 
 ## Python Libraries
 
-![Python web scraping tutorial libraries: Beautiful Soup, Pandas, Selenium](https://oxylabs.io/blog/images/2020/06/How-to-do-Web-Scraping-1024x600.jpg)Web scraping with Python is easy due to the many useful libraries available
+Web scraping with Python is easy due to the many useful libraries available
 
 A barebones installation of Python isn’t enough for web scraping. One of the [Python advantages](https://oxylabs.io/blog/what-is-python-used-for) is a large selection of libraries for web scraping. For this Python web scraping tutorial, we’ll be using three important libraries – requests, BeautifulSoup, and CSV.
 
