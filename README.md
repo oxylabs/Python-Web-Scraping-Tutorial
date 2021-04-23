@@ -5,7 +5,7 @@
 - [Web Scraping in 5 Lines of Code](#Web-Scraping-in-5-Lines-of-Code)
 - [Components of a Web Scraping with Python Code](#Components-of-a-Web-Scraping-with-Python-Code)
     - [Python Libraries](#Python-Libraries)
-    - [Python Web Scraping: Working with Requests](#Python-Web-Scraping:-Working-with-Requests)
+    - [Python Web Scraping: Working with Requests](#Python-Web-Scraping-Working-with-Requests)
 - [BeautifulSoup](#BeautifulSoup)
 - [Find Methods in BeautifulSoup4](#Find-Methods-in-BeautifulSoup4)
     - [Finding Multiple Elements](#Finding-Multiple-Elements)
