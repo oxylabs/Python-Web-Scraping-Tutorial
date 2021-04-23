@@ -1,0 +1,20 @@
+heading_number,heading_text
+1,History
+2,Techniques
+2.1,Human copy-and-paste
+2.2,Text pattern matching
+2.3,HTTP programming
+2.4,HTML parsing
+2.5,DOM parsing
+2.6,Vertical aggregation
+2.7,Semantic annotation recognizing
+2.8,Computer vision web-page analysis
+3,Software
+4,Legal issues
+4.1,United States
+4.2,The EU
+4.3,Australia
+4.4,India
+5,Methods to prevent web scraping
+6,See also
+7,References
