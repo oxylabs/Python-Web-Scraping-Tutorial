@@ -150,13 +150,13 @@ Moving on to Wikipedia example, the first step is to look at the HTML markup for
 <div id="toc" class="toc">    
 ```
 
-If we simply run `soup.find("div")`, it will return the first div it finds—similar to writing `soup.div`. This needs filtering as we need a specific div. We are lucky in this case as it has an `id `attribute. The following line of code can extract the div element:
+If we simply run `soup.find("div")`, it will return the first div it finds - similar to writing `soup.div`. This needs filtering as we need a specific div. We are lucky in this case as it has an `id `attribute. The following line of code can extract the div element:
 
 ```python
 soup.find("div",id="toc")
 ```
 
-Note that the second parameter here—`id="toc"`.  The find method does not have a named parameter `id`, but still this works because of the implementation of the filter using the `**kwargs`.
+Note that the second parameter here - `id="toc"`.  The find method does not have a named parameter `id`, but still this works because of the implementation of the filter using the `**kwargs`.
 
 Be careful with CSS class though. `class `is a reserved keyword in Python. It cannot be used as a parameter name directly.  There are two workarounds – first, just use `class_` instead of `class`. The second workaround is to use a dictionary as the second argument.
 
@@ -175,7 +175,7 @@ What if we need to find multiple elements?
 
 ## Finding Multiple Elements
 
-Consider this scenario—the object is to create a CSV file, which has two columns. The first column contains the heading number and  the second column contains the heading text. 
+Consider this scenario - the object is to create a CSV file, which has two columns. The first column contains the heading number and  the second column contains the heading text. 
 
 To find multiple columns, we can use `find_all` method.
 
