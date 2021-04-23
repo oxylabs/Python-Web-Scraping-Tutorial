@@ -20,12 +20,6 @@ print(bs.find("p").text)
 
 This will go to the Wikipedia page for the web scraping and print the first paragraph on the terminal. This code shows the simplicity and power of Python. You will find this code in `webscraping_5lines.py` file.
 
-## What is Web Scraping
-
-Simply put, web scraping is an automated process of extract data. Web scraper can extract data in seconds that would have simply been impossible manually. 
-
-Often, web scraping is the Extract part of the larger concept of ETL or Extract, Transform, and Load. Once the data is extracted using web scraping tools, the data would then need to be transformed to become usable for the next step. For example, it may need cleaning, sorting, apply data validation, etc. Many powerful frameworks like Scrapy in Python can handle the processing up to some extent.  Moreover, other Python libraries like Pandas are one of the most powerful tools to handle the transformation. This is another point in favor of Python for web scraping.
-
 ## Components of a Web Scraping with Python Code
 
 The main building blocks for any web scraping code is like this:
