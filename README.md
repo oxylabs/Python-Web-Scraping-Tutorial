@@ -91,7 +91,7 @@ If we check the data type of this, it will be a string. The next step is to conv
 
 Meet BeautifulSoup!
 
-## BeutifulSoup 
+## BeautifulSoup 
 
 Beautiful Soup provides simple methods for navigating, searching, and modifying the HTML. It takes care of encoding by automatically converting into UTF-8.  Beautiful Soup sits on top of popular Python parsers like lxml and html5lib. It is possible to [use lxml directly to query documents](https://oxylabs.io/blog/lxml-tutorial), but BeautifulSoup allows you to try out different parsing strategies without changing the code.
 
