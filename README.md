@@ -258,7 +258,7 @@ This data can now be exported easily using CSV module.
 
 ## Exporting the data
 
-![Data scraping python](https://oxylabs.io/blog/images/2020/06/Web-Scraping-Tutorial-Python-1-1024x683.jpg)The data can be easily exported to a CSV file using the csv module. The first step is to open a file in write mode. Note that the `newline` parameter should be set to an empty string. If this is not done, you will see unwarted new line characters in your CSV file
+The data can be easily exported to a CSV file using the csv module. The first step is to open a file in write mode. Note that the `newline` parameter should be set to an empty string. If this is not done, you will see unwarted new line characters in your CSV file
 
 ```python
 file= open("toc.csv", "w", newline="") 
