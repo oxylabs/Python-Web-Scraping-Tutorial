@@ -49,7 +49,7 @@ There will be some cases when you do need to open the browser. Python makes that
 
 Web scraping with Python is easy due to the many useful libraries available
 
-A barebones installation of Python isn’t enough for web scraping. One of the [Python advantages](https://oxylabs.io/blog/what-is-python-used-for) is a large selection of libraries for web scraping. For this Python web scraping tutorial, we’ll be using three important libraries – requests, BeautifulSoup, and CSV.
+A barebones installation of Python isn’t enough for web scraping. One of the [Python advantages](https://oxy.yt/RrXa) is a large selection of libraries for web scraping. For this Python web scraping tutorial, we’ll be using three important libraries – requests, BeautifulSoup, and CSV.
 
 - The [Requests](https://docs.python-requests.org/en/master/) library is used to get the HTML files, bypassing the need to use a browser
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) is used to convert the raw HTML into a Python object, also called parsing. We will be working with Version 4 of this library, also know as `bs4` or `BeautifulSoup4`.
@@ -106,7 +106,7 @@ Meet BeautifulSoup!
 
 ## BeautifulSoup 
 
-Beautiful Soup provides simple methods for navigating, searching, and modifying the HTML. It takes care of encoding by automatically converting into UTF-8.  Beautiful Soup sits on top of popular Python parsers like lxml and html5lib. It is possible to [use lxml directly to query documents](https://oxylabs.io/blog/lxml-tutorial), but BeautifulSoup allows you to try out different parsing strategies without changing the code.
+Beautiful Soup provides simple methods for navigating, searching, and modifying the HTML. It takes care of encoding by automatically converting into UTF-8.  Beautiful Soup sits on top of popular Python parsers like lxml and html5lib. It is possible to [use lxml directly to query documents](https://oxy.yt/ZrZd), but BeautifulSoup allows you to try out different parsing strategies without changing the code.
 
 
 
