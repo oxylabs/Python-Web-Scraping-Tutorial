@@ -4,13 +4,24 @@ from bs4 import BeautifulSoup
 
 def get_data(url):
     response = requests.get(url)
-    response.raise_for_status()  # Add error handling for request
-    soup = BeautifulSoup(response.text, 'lxml')
-    headings = soup.find("div", id="toc").find_all("li")
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, 'html.parser')
     
-    data = [{'heading_number': heading.find("span", class_="tocnumber").text,
-             'heading_text': heading.find("span", class_="toctext").text}
-            for heading in headings]
+    data = []
+    
+    toc = soup.find("div", {"id": "toc"})
+    
+    if toc:
+        headings = toc.find_all("li")
+        for heading in headings:
+            heading_number = heading.find("span", {"class": "tocnumber"})
+            heading_text = heading.find("span", {"class": "toctext"})
+            
+            if heading_number and heading_text:
+                data.append({
+                    'heading_number': heading_number.text.strip(),
+                    'heading_text': heading_text.text.strip(),
+                })
     
     return data
 
