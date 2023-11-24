@@ -297,6 +297,8 @@ That's it! We have the data ready in a CSV.
 
 You can find this complete code in the file `wiki_toc.py` file.
 
+Also, check this tutorial on [pypi](https://pypi.org/project/python-web-scraping-tutorial-step-by-step/)
+
 ## Other Tools
 
 Some websites do not have data in the HTML but are loaded from other files using JavaScript. In such cases, you would need a solution that uses a browser. The perfect example would be to use Selenium. We have a [detailed guide on Selenium here](https://en.wikipedia.org/wiki/Web_scraping).
